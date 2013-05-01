@@ -1,0 +1,7 @@
+base    editions
+author  Anika Henke
+email   anika@selfthinker.org
+date    2013-05-02
+name    Editions Plugin
+desc    Compare several editions of the same text in different versions or languages
+url     https://www.dokuwiki.org/plugin:editions

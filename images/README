@@ -1,0 +1,3 @@
+
+For every edition add one PNG icon (16x16) with the name of the edition as written in editions.conf.
+E.g. if the edition was named "example", then the icon needs to be named "example.png".

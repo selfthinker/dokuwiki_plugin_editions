@@ -1,0 +1,28 @@
+Editions Plugin for DokuWiki [https://www.dokuwiki.org/plugin:editions]
+See also plugin.info.txt
+
+This plugin needs three things before you can use it:
+
+1. Install the PurpleNumbers plugin [https://www.dokuwiki.org/plugin:purplenumbers]
+
+2. Add a config file named `editions.conf` into the "conf" folder with edition name and language code per row, e.g.
+```
+laforgue        fr
+machen          en
+conrad          de
+```
+
+3. You need to have a certain namespace and page structure, i.e.
+  a. the edition namespace (configurable via the `editionNamespace` config option)
+  b. needs sub namespaces for each edition
+  c. all page names must be the same between the different editions
+  d. all paragraphs need to be in the same order across same pages
+e.g.
+```
+edition:laforgue:001
+edition:machen:001
+edition:conrad:001
+```
+for a first chapter page
+
+4. Optionally, you can add add icons for every edition to the "images" folder. See README in there.

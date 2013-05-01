@@ -1,0 +1,67 @@
+
+/* don't cut off the snippets */
+body .dokuwiki div.page {
+    overflow: visible;
+}
+
+.editions_section {
+    position: relative;
+}
+
+/* list of editions per paragraph */
+
+.editions_editionlist {
+    position: relative;
+    text-align: right;
+}
+
+.editions_editionlist ul {
+    margin: -1.4em 0 1.4em;
+    padding: 0;
+    list-style: none;
+}
+
+.editions_editionlist li {
+    display: inline;
+    padding: 0 0 0 .5em;
+    margin: 0;
+}
+
+/* prepare for icons */
+.editions_editionlist li a {
+    padding-left: 18px;
+    background-position: 0 center;
+    background-repeat: no-repeat;
+}
+
+
+/* snippet */
+
+body .editions_snippet {
+    position: absolute;
+    top: 2em;
+    right: 0;
+    width: 90%;
+    text-align: justify;
+    z-index: 50;
+    background-image: none;
+    line-height: 1.2;
+    padding: .7em;
+    display: none;
+}
+
+.editions_snippet p {
+    margin-bottom: 0;
+}
+
+.editions_snippet img.load {
+    margin: 0 auto;
+    display: block;
+    opacity: .5;
+}
+
+/* hide purple numbers and edition links in snippet */
+.editions_snippet a.pn,
+.editions_snippet .editions_editionlist {
+    display: none;
+}
