@@ -5,4 +5,4 @@
  * 
  * @author Myeongjin <aranet100@gmail.com>
  */
-$lang['editionLinkTitle']      = '%s 판에서 이 문단';
+$lang['editionLinkTitle']      = '%s 에디션에서 이 단락';

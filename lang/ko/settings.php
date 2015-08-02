@@ -5,4 +5,4 @@
  * 
  * @author Myeongjin <aranet100@gmail.com>
  */
-$lang['editionNamespace']      = '판 이름공간';
+$lang['editionNamespace']      = '에디션 이름공간';
